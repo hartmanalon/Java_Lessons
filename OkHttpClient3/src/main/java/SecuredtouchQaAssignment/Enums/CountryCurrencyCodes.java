@@ -1,4 +1,4 @@
-package Enums;
+package SecuredtouchQaAssignment.Enums;
 
 public enum CountryCurrencyCodes {
 
