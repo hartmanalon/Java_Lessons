@@ -13,9 +13,7 @@ public class OkHttpDemo {
             client = new OkHttpClient();
         }
 
-        Request request = new Request.Builder()
-                .url(url)
-                .build();
+        Request request = new Request.Builder().url(url).build();
 
         try (Response response = client.newCall(request).execute()) {
             return response.body().string();
